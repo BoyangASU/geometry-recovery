@@ -57,6 +57,12 @@ The framework has three stages; ST-FFT itself is the IQI core of stage 2.
 
 ### 2. ST-FFT quality improvement — `stfft.transform`
 
+<p align="center">
+  <img src="figures/figure4.png" width="600" alt="ST-FFT framework">
+  <br>
+  <em>Figure 1. The three-stage ST-FFT framework.</em>
+</p>
+
 - **FFT-S (spatial).** Each frame is transformed by 2D FFT and multiplied by a
   Gaussian low-pass filter, suppressing high-frequency sensor noise and
   smoothing the frame — this preserves and strengthens the *spatial* pattern.
@@ -80,6 +86,12 @@ The framework has three stages; ST-FFT itself is the IQI core of stage 2.
 
 ## Key results (from the paper's RSW case study)
 
+<p align="center">
+  <img src="figures/figure6.png" width="600" alt="ST-FFT framework">
+  <br>
+  <em>Figure 1. The three-stage ST-FFT framework.</em>
+</p>
+
 Seven thermal videos of joined Boron-steel sheets, frames enlarged to 3.5× the
 original size.
 
@@ -93,6 +105,12 @@ The recovered weld-nugget ellipse had its center at (140.51, 109.17) with
 semi-major / semi-minor axes of 87.74 / 72.70. IQA makes the recovered ratio
 far more stable, and adding ST-FFT makes it both the most accurate **and**
 roughly **70× faster**.
+
+<p align="center">
+  <img src="figures/figure5.png" width="600" alt="ST-FFT framework">
+  <br>
+  <em>Figure 1. The three-stage ST-FFT framework.</em>
+</p>
 
 ## Installation
 
