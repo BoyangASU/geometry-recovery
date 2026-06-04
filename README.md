@@ -29,6 +29,11 @@ thermal videos of lab-based **resistance spot welding (RSW)** and is readily
 generalizable to other processes such as laser-based additive manufacturing.
 
 ## Method
+<p align="center">
+  <img src="figures/framework.png" width="600" alt="ST-FFT framework">
+  <br>
+  <em>Figure 1. The three-stage ST-FFT framework.</em>
+</p>
 
 The framework has three stages; ST-FFT itself is the IQI core of stage 2.
 
