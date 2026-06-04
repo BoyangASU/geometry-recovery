@@ -30,7 +30,7 @@ generalizable to other processes such as laser-based additive manufacturing.
 
 ## Method
 <p align="center">
-  <img src="figures/framework.png" width="600" alt="ST-FFT framework">
+  <img src="figures/figure2.png" width="600" alt="ST-FFT framework">
   <br>
   <em>Figure 1. The three-stage ST-FFT framework.</em>
 </p>
