@@ -1,0 +1,23 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.eggs/
+build/
+dist/
+.ipynb_checkpoints/
+.venv/
+venv/
+
+# Data & outputs (large / private)
+data/
+*.csv
+*.xlsx
+!configs/*.csv
+results/
+figures/*.png
+
+# OS / editor
+.DS_Store
+.vscode/
+.idea/
