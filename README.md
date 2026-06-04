@@ -82,13 +82,13 @@ The framework has three stages; ST-FFT itself is the IQI core of stage 2.
 <p align="center">
   <img src="figures/figure4.png" width="600" alt="ST-FFT framework">
   <br>
-  <em>K-means Segmentation and Geometry Recovery Results.</em>
+  <em>Figure 2. K-means Segmentation and Geometry Recovery Results.</em>
 </p>
 
 <p align="center">
   <img src="figures/figure6.png" width="600" alt="ST-FFT framework">
   <br>
-  <em>The performance for geometry from “side” view.</em>
+  <em>Figure 3. The performance for geometry from “side” view.</em>
 </p>
 
 Seven thermal videos of joined Boron-steel sheets, frames enlarged to 3.5× the
@@ -108,7 +108,7 @@ roughly **70× faster**.
 <p align="center">
   <img src="figures/figure5.png" width="600" alt="ST-FFT framework">
   <br>
-  <em>Figure 1. Box plot for geometry shape recovery ("top-down” view). </em>
+  <em>Figure 4. Box plot for geometry shape recovery ("top-down” view). </em>
 </p>
 
 ## Installation
