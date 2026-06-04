@@ -57,12 +57,6 @@ The framework has three stages; ST-FFT itself is the IQI core of stage 2.
 
 ### 2. ST-FFT quality improvement — `stfft.transform`
 
-<p align="center">
-  <img src="figures/figure4.png" width="600" alt="ST-FFT framework">
-  <br>
-  <em>Figure 1. The three-stage ST-FFT framework.</em>
-</p>
-
 - **FFT-S (spatial).** Each frame is transformed by 2D FFT and multiplied by a
   Gaussian low-pass filter, suppressing high-frequency sensor noise and
   smoothing the frame — this preserves and strengthens the *spatial* pattern.
@@ -85,11 +79,16 @@ The framework has three stages; ST-FFT itself is the IQI core of stage 2.
   is provided here as a drop-in approximation.
 
 ## Key results (from the paper's RSW case study)
+<p align="center">
+  <img src="figures/figure4.png" width="600" alt="ST-FFT framework">
+  <br>
+  <em>K-means Segmentation and Geometry Recovery Results.</em>
+</p>
 
 <p align="center">
   <img src="figures/figure6.png" width="600" alt="ST-FFT framework">
   <br>
-  <em>Figure 1. The three-stage ST-FFT framework.</em>
+  <em>The performance for geometry from “side” view.</em>
 </p>
 
 Seven thermal videos of joined Boron-steel sheets, frames enlarged to 3.5× the
@@ -109,7 +108,7 @@ roughly **70× faster**.
 <p align="center">
   <img src="figures/figure5.png" width="600" alt="ST-FFT framework">
   <br>
-  <em>Figure 1. The three-stage ST-FFT framework.</em>
+  <em>Figure 1. Box plot for geometry shape recovery ("top-down” view). </em>
 </p>
 
 ## Installation
